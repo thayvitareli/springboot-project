@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Profile;
 import com.projectspringboot.course.entities.User;
 import com.projectspringboot.course.repositories.UserRepository;
 
-@Configuration
+@Configuration 
 @Profile("test")
 public class TestConfig implements CommandLineRunner{
 
